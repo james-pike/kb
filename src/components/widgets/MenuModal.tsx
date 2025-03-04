@@ -53,9 +53,9 @@ export default component$(() => {
           {/* Header */}
           <div class="border-b-2 border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-1">
             <Modal.Title class="pt-1">
-              <a href="/">
-                <Logo />
-              </a>
+            <a class="flex items-center" href={"/"}>
+            <img src="/images/logo.jpg" class="h-10"/>
+          </a>
             </Modal.Title>
             <Modal.Description class="text-md font-medium px-2 py-1 text-gray-700 dark:text-gray-200">
               The most bullish NFT's on Kaspa!

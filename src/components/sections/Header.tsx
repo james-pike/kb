@@ -52,7 +52,7 @@ export default component$(() => {
       
       {/* Modified banner section */}
       {isBannerVisible.value && (
-        <div class="w-full h-6 bg-primary-400 px-4 md:px-7 mx-auto text-white flex justify-between items-center max-w-7xl relative">
+        <div class="w-full h-6 bg-primary-300 px-4 md:px-7 mx-auto text-white flex justify-between items-center max-w-7xl relative">
           <div>
             <p>Mint Now on Kaspa.com & KSPR Bot!</p>
           </div>
