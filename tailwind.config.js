@@ -17,19 +17,19 @@ module.exports = {
       },
       colors: {
         primary: {
-          25:  '#faf6f2',  // Light Cream  
-          50:  '#f3ebe3',  // Latte Foam  
-          100: '#e4d3c3',  // Cappuccino  
-          200: '#d1b49a',  // Macchiato  
-          300: '#b8936e',  // Caramel  
-          400: '#996e45',  // Mocha  
-          500: '#7B4B26',  // Espresso (Base)  
-          DEFAULT: '#7B4B26', // Default primary  
-          600: '#633b1e',  // Dark Roast  
-          700: '#4d2e17',  // Coffee Bean  
-          800: '#372110',  // French Roast  
-          900: '#23150a',  // Black Coffee  
-          950: '#120a05',  // Deep Brew  
+          25:  '#e8f9f7',  // Light Mint Cream
+          50:  '#c9f0eb',  // Soft Mint
+          100: '#a3e1db',  // Mint Breeze
+          200: '#7ccac3',  // Seafoam
+          300: '#5bb5a6',  // Mint Leaf
+          400: '#4ca78f',  // Sage Green
+          500: '#70C7BA',  // Primary Mint (Base)
+          DEFAULT: '#70C7BA', // Default primary
+          600: '#5aa894',  // Deep Mint
+          700: '#4c8c7d',  // Moss Green
+          800: '#3f7267',  // Forest Green
+          900: '#2f5b52',  // Evergreen
+          950: '#1f4841',  // Deep Forest
         },
         secondary: {
           50:  '#e6f9f7',  

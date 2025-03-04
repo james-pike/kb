@@ -6,7 +6,6 @@ import Menu from "~/components/sections/Gallery";
 import FAQ from "~/components/sections/FAQ";
 import Reviews from "~/components/sections/Reviews";
 import Contact from "~/components/sections/Contact";
-import Hero from "~/components/sections/Hero";
 import Steps from "~/components/sections/Steps";
 import Stats from "~/components/widgets/Stats";
 import LogoClouds from "~/components/sections/LogoClouds";
@@ -75,6 +74,10 @@ export default component$(() => {
           },
         ]}
       />
+
+<a href = "https://t.me/+QfuiwMwtFsE1OTg0" target="_blank">
+<img src="/images/telegram.jpeg" alt="hero1" class="w-full" />
+</a>
 
 <Steps title="The Roadmap"
         subtitle="Have questions about our café? Find answers to common inquiries below."

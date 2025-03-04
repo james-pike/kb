@@ -126,7 +126,7 @@ export default component$((props: Props) => {
           <div class="md:hidden order-3">
             <Image
               layout="constrained"
-               src="/images/hero1.webp"
+               src="/images/tkbc.jpeg"
               width={532}
               height={504}
               alt={image.alt}

@@ -3,7 +3,6 @@ import { useContent, useLocation } from "@builder.io/qwik-city";
 import IconChevronDown from "../icons/IconChevronDown";
 import IconTwitter from "../icons/IconTwitter";
 import IconTelegram from "../icons/IconTelegram";
-import { Logo } from "../common/Logo";
 import MenuModal from "../widgets/MenuModal";
 import ToggleTheme from "../common/ToggleTheme";
 
@@ -55,7 +54,7 @@ export default component$(() => {
       {isBannerVisible.value && (
         <div class="w-full h-6 bg-primary-400 px-4 md:px-7 mx-auto text-white flex justify-between items-center max-w-7xl relative">
           <div>
-            <p>Today's Specials: Freshly brewed, just for you!</p>
+            <p>Mint Now on Kaspa.com & KSPR Bot!</p>
           </div>
           <div id="test" class="flex gap-4 sm:flex hidden sm:block">
             <a
@@ -90,7 +89,7 @@ export default component$(() => {
       <div class="relative text-default py-2.5 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
-            <img src="/images/logo.jpg" height={10}/>
+            <img src="/images/logo.jpg" class="h-10"/>
           </a>
           <div class="flex items-center md:hidden">
       
