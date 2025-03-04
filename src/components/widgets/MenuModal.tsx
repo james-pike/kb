@@ -137,10 +137,9 @@ export default component$(() => {
                     </Button>
                   </li>
                 </ul>
-                
-                <div class="bg-gray-100 dark:bg-gray-800 h-40 w-full flex items-center justify-center text-center p-3">
-               <img src="/images/telegram.jpeg" class="max-h-full max-w-full object-contain"/>
-                </div>
+                <a href = "https://t.me/+QfuiwMwtFsE1OTg0" target="_blank">
+                                 <img src="/images/telegram.jpeg" alt="logo" class="pt-4 w-full" />
+</a>
               </div>
             )}
           </nav>
