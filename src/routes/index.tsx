@@ -25,7 +25,7 @@ export default component$(() => {
   return (
     <>
     <div class="block md:hidden">
-      <Hero />
+      <video src="/images/hero2.mp4" autoplay loop muted playsInline class="w-full h-auto" />
 
       <Services title="Join The Hunt"
         subtitle="Mint one of five legendary bulls to win upto 25,000 Kaspa!"
