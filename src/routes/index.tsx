@@ -24,17 +24,18 @@ const IconArrowDown = qwikSerialized(() => import("../components/icons/IconArrow
 export default component$(() => {
   return (
     <>
+    <div class="block md:hidden">
       <Hero />
 
-      <Services title="What We Do"
-        subtitle="Have questions about our café? Find answers to common inquiries below."
-        highlight="Services"
+      <Services title="Join The Hunt"
+        subtitle="Mint one of five legendary bulls to win upto 25,000 Kaspa!"
+        highlight="Bounties"
         items={[]} />
 
       <Features
         highlight="Features"
         title="What you get with Qwind"
-        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
+        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiuma doloremque rem aperiam, eaque ipsa quae."
         items={[
           {
             title: "Qwik + Tailwind CSS Integration",
@@ -75,6 +76,12 @@ export default component$(() => {
         ]}
       />
 
+<Steps title="The Roadmap"
+        subtitle="Have questions about our café? Find answers to common inquiries below."
+        highlight="Steps To Success"
+        items={[]} />
+
+
 <Menu title="Gallery Of Past Work"
         subtitle="Have questions about our café? Find answers to common inquiries below."
         highlight="Portfolio"
@@ -90,11 +97,7 @@ export default component$(() => {
         highlight="Reviews"
         items={[]} />
 
-      <Steps title="Our Process"
-        subtitle="Have questions about our café? Find answers to common inquiries below."
-        highlight="Steps To Success"
-        items={[]} />
-
+   
       
 
 <Stats/>
@@ -146,7 +149,7 @@ export default component$(() => {
        
 
        <Contact />
-
+       </div>
 
     </>
   );

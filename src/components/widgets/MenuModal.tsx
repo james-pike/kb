@@ -16,14 +16,14 @@ export default component$(() => {
   // Menu items array structure
   const menuItems = [
     { title: "Home", href: "/", badge: null },
-    { title: "Our Story", href: "/about/", badge: null },
+    { title: "Story", href: "/about/", badge: null },
     { 
-      title: "Portfolio", 
+      title: "Roadmap", 
       href: "/gallery/", 
       badge: <Badge class="absolute -top-0.1 left-14.5 bg-primary-300 text-white text-xs px-1 py-0 rounded">New</Badge> 
     },
     { 
-      title: "Services", 
+      title: "Collections", 
       href: "#",
       hasSubmenu: true,
       subitems: [
@@ -32,9 +32,9 @@ export default component$(() => {
         { title: "SEO", href: "/services/seo" }
       ]
     },
-    { title: "Reviews", href: "/reviews/", badge: null },
-    { title: "FAQ", href: "/faq/", badge: null },
-    { title: "Contact Us", href: "/contact/", badge: null }
+    { title: "Merch", href: "/reviews/", badge: null },
+    { title: "Games", href: "/faq/", badge: null },
+    { title: "Contact", href: "/contact/", badge: null }
   ];
 
   // Get services subitems safely
@@ -58,7 +58,7 @@ export default component$(() => {
               </a>
             </Modal.Title>
             <Modal.Description class="text-md font-medium px-2 py-1 text-gray-700 dark:text-gray-200">
-              Add some sweetness to your day!
+              The most bullish NFT's on Kaspa!
             </Modal.Description>
           </div>
 
@@ -134,17 +134,13 @@ export default component$(() => {
                       }}
                       class="w-full text-left bg-primary-400 dark:bg-primary-600 text-white"
                     >
-                      Order Online
+                      Buy KasBulls
                     </Button>
                   </li>
                 </ul>
                 
                 <div class="bg-gray-100 dark:bg-gray-800 h-40 w-full flex items-center justify-center text-center p-3">
-                  <div class="w-full h-full bg-primary-25 dark:bg-gray-700">
-                    <h2 class="text-2xl font-bold text-gray-800">Warm Up Your Day!</h2>
-                    <p class="text-lg text-gray-600 mt-1">Enjoy 15% off all lattes this week.</p>
-                    <p class="text-sm text-primary-600 font-medium mt-2">Use code: LATTELOVE</p>
-                  </div>
+               <img src="/images/telegram.jpeg"/>
                 </div>
               </div>
             )}

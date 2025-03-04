@@ -14,33 +14,29 @@ export default component$(() => {
     {
       title: 'Web Development',
       description: 'Building responsive and modern web applications',
-      image: '/images/hero1.webp'
+      image: '/images/gold.jpeg'
     },
     {
       title: 'Mobile Apps',
       description: 'Creating native and cross-platform mobile solutions',
-      image: '/images/hero1.webp'
+      image: '/images/silver.jpeg'
     },
     {
       title: 'UI/UX Design',
       description: 'Designing intuitive and beautiful user interfaces',
-      image: '/images/hero1.webp'
+      image: '/images/red.jpeg'
     },
     {
       title: 'Cloud Services',
       description: 'Implementing scalable cloud infrastructure',
-      image: '/images/hero1.webp'
+      image: '/images/bear1.jpeg'
     },
     {
       title: 'Cloud Services2',
       description: 'Implementing scalable cloud infrastructure',
-      image: '/images/hero1.webp'
+      image: '/images/bear2.jpeg'
     },
-    {
-      title: 'Cloud Services3',
-      description: 'Implementing scalable cloud infrastructure',
-      image: '/images/hero1.webp'
-    }
+ 
   ];
 
   return (
@@ -56,12 +52,9 @@ export default component$(() => {
             <img 
               src={service.image} 
               alt={service.title}
-              class="w-full h-44 object-cover rounded-t-md"
+              class="w-full object-cover rounded-t-md"
             />
-            <div class="service-info p-2 bg-gray-200 dark:bg-gray-800 flex-1 overflow-hidden">
-              <h1 class="service-title text-lg font-bold truncate">{service.title}</h1>
-              <p class="service-description text-sm line-clamp-2">{service.description}</p>
-            </div>
+             
           </Carousel.Slide>
         ))}
       </Carousel.Scroller>

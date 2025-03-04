@@ -90,16 +90,16 @@ export default component$(() => {
       <div class="relative text-default py-2.5 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
-            <Logo />
+            <img src="/images/logo.jpg" height={10}/>
           </a>
           <div class="flex items-center md:hidden">
       
-            <a
+            {/* <a
                 href="/contact"
                 class="btn btn-primary bg-primary hover:bg-primary-400 ml-2 py-2.5 px-2.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Get A Quote
-              </a>
+              </a> */}
               <ToggleTheme iconClass="w-6 h-6"/>
             <MenuModal />
           </div>
