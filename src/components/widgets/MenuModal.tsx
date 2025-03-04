@@ -54,7 +54,7 @@ export default component$(() => {
           <div class="border-b-2 border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-1">
             <Modal.Title class="pt-1">
             <a class="flex items-center" href={"/"}>
-            <img src="/images/logo.jpg" class="h-10"/>
+            <img src="/images/logo.jpg" class="h-20"/>
           </a>
             </Modal.Title>
             <Modal.Description class="text-md font-medium px-2 py-1 text-gray-700 dark:text-gray-200">
@@ -140,7 +140,7 @@ export default component$(() => {
                 </ul>
                 
                 <div class="bg-gray-100 dark:bg-gray-800 h-40 w-full flex items-center justify-center text-center p-3">
-               <img src="/images/telegram.jpeg"/>
+               <img src="/images/telegram.jpeg" class="max-h-full max-w-full object-contain"/>
                 </div>
               </div>
             )}
