@@ -14,11 +14,13 @@ export default component$(() => {
 
   return (
     <>
+    <div class="block md:hidden">
       <Header />
       <main>
         <Slot />
       </main>
       <Footer />
+      </div>
     </>
   );
 });
